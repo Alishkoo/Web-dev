@@ -1,0 +1,138 @@
+body{
+    background-color:rgba(45, 45, 255, 0.1);
+}
+.container{
+    display: flex;
+}
+.left{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 50vw;
+}
+.block{
+    margin-top: 30vh;
+    margin-left: 10vw;
+    width: 30vw;
+}
+h1{
+    color: blue;
+    text-align: left;
+    font-size: 70px;
+    margin-bottom: 0;
+}
+.subtitile{
+    margin-top: 0;
+    text-align: left;
+    font-size: 24px;
+    font: bold;
+}
+
+
+.right{
+    width: 50vw;
+}
+.box{
+    background-color:white;
+    margin-top: 20vh;
+    width: 28vw;
+    height: 60vh;
+    border-radius: 10px;
+    align-items: center;
+}
+input[type="text"] {
+
+    width: 85%;
+    margin: 2px;
+    margin-left: 1.2vw;
+    margin-top: 2vh;
+    padding: 12px;
+    border: 1px solid #6cacff;
+    border-radius: 4px;
+}
+input[type="text"]:focus {
+    border: 2px solid #2196F3; 
+    outline: none;
+}
+input[type="password"]{
+    width: 85%;
+    margin: 2px;
+    margin-left: 1.2vw;
+    margin-top: 2vh;
+    padding: 12px;
+    border: 1px solid #6cacff;
+    border-radius: 4px;
+
+}
+input[type="password"]:focus {
+    border: 2px solid #2196F3; 
+    outline: none;
+}
+
+.btn-in{
+    width: 91%;
+    padding: 14px;
+    margin: 6px;
+    margin-left: 1.2vw;
+    margin-top: 10px;
+    background-color:#2196F3;
+    border: 1px solid #6cacff;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 10px;
+    outline: none;
+
+}
+.btn-in:focus{
+    border: 2px solid #2196F3; 
+    outline: none;
+}
+
+.frgt a{
+    text-decoration:none;
+    color:#2196F3;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+.frgt a:hover {
+    text-decoration: underline; 
+}
+
+.thin-line{
+    border: 0.5px solid #ccc;
+    width: 25vw;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn-create-acc{
+    width: 50%;
+    height: 15%;
+    background-color:rgb(49, 180, 49);
+    border: 1px solid #6cacff;
+    padding: 10px;
+
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+
+    border-radius: 10px;
+    outline: none;
+    
+    justify-content: center;
+    margin-left: 95px;
+    margin-top: 30px;
+}
+
+.sub-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.highlight {
+    font-weight: bold;
+  }
