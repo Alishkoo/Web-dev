@@ -1,0 +1,20 @@
+
+
+<div class="container">
+    <p>car works!</p>
+    <h4><mark>Auto: </mark> {{name}}</h4>
+    <div class="alert alert-succes">
+        characteristics of car:
+        <ul>
+            <li>{{speed}}</li>
+            <li>{{colors.car}}</li>
+            <li>{{colors.wheels}}</li>
+        </ul>
+    </div>
+
+    <div class="alert alert-warning">
+        <ul>
+            <li *ngFor="let opt of options">{{opt}}</li>
+        </ul>
+    </div>
+</div>

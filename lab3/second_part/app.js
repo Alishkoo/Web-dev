@@ -9,7 +9,7 @@ window.addEventListener('load', ()=>{
         //* убираем стандартные действия при сабмит, а конкретно то что обновляет страницу 
 
         
-        const task = input.value;
+        const task = input.value.trim();
 
         if(!task) {
             alert("Please fill out");
