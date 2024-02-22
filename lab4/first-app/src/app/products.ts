@@ -9,6 +9,7 @@ export interface Product {
   camera: string;
   price: number;
   imageUrl: string;
+  rating: number;
 }
 
 export const products = [
@@ -23,7 +24,8 @@ export const products = [
     camera: '50MP + 12MP',
     price: 217001,
     link: 'https://kaspi.kz/shop/p/google-pixel-7-8-gb-128-gb-chernyi-106971937/?c=750000000',
-    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/hfe/hb5/84424699838494.png?format=gallery-medium'
+    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/hfe/hb5/84424699838494.png?format=gallery-medium',
+    rating: 1
   },
   {
     id: 2,
@@ -36,7 +38,8 @@ export const products = [
     camera: '108MP + 8MP + 2MP + 5MP',
     price: 121885,
     link: 'https://kaspi.kz/shop/p/google-pixel-7-8-gb-128-gb-chernyi-106971937/?c=750000000',
-    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h02/ha0/79846423199774.jpg?format=gallery-medium'
+    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h02/ha0/79846423199774.jpg?format=gallery-medium',
+    rating: 1
   },
   {
     id: 3,
@@ -49,7 +52,8 @@ export const products = [
     camera: '48MP + 12MP + 12MP',
     price: 940894,
     link: 'https://kaspi.kz/shop/p/google-pixel-7-8-gb-128-gb-chernyi-106971937/?c=750000000',
-    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/hc6/h5d/84076355977246.jpg?format=gallery-medium'
+    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/hc6/h5d/84076355977246.jpg?format=gallery-medium',
+    rating: 1
   },
   {
     id: 4,
@@ -62,7 +66,8 @@ export const products = [
     camera: '200MP + 50MP + 12MP + 10MP',
     price: 647989,
     link: 'https://kaspi.kz/shop/p/google-pixel-7-8-gb-128-gb-chernyi-106971937/?c=750000000',
-    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h10/h0f/84963708370974.png?format=gallery-medium'
+    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h10/h0f/84963708370974.png?format=gallery-medium',
+    rating: 1
   },
   {
     id: 5,
@@ -75,7 +80,8 @@ export const products = [
     camera: '100MP + 2MP + 2MP',
     price: 139500,
     link: 'https://kaspi.kz/shop/p/google-pixel-7-8-gb-128-gb-chernyi-106971937/?c=750000000',
-    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h4e/h64/70342818955294.jpg?format=gallery-medium'
+    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h4e/h64/70342818955294.jpg?format=gallery-medium',
+    rating: 1
   },
   {
     id: 6,
@@ -88,7 +94,8 @@ export const products = [
     camera: '50MP + 2MP + 2MP',
     price: 94990,
     link: 'https://kaspi.kz/shop/p/google-pixel-7-8-gb-128-gb-chernyi-106971937/?c=750000000',
-    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h6a/h74/64428205113374.jpg?format=gallery-medium'
+    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h6a/h74/64428205113374.jpg?format=gallery-medium',
+    rating: 1
   },
   {
     id: 7,
@@ -101,7 +108,8 @@ export const products = [
     camera: '50MP + 48MP + 32MP',
     price: 377000,
     link: 'https://kaspi.kz/shop/p/google-pixel-7-8-gb-128-gb-chernyi-106971937/?c=750000000',
-    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h0e/h19/69978583367710.jpg?format=gallery-medium'
+    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h0e/h19/69978583367710.jpg?format=gallery-medium',
+    rating: 1
   },
   {
     id: 8,
@@ -114,7 +122,8 @@ export const products = [
     camera: '64MP + 8MP + 2MP',
     price: 179900,
     link: 'https://kaspi.kz/shop/p/google-pixel-7-8-gb-128-gb-chernyi-106971937/?c=750000000',
-    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/hd8/h11/68355676667934.jpg?format=gallery-medium'
+    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/hd8/h11/68355676667934.jpg?format=gallery-medium',
+    rating: 1
   },
   {
     id: 9,
@@ -127,7 +136,8 @@ export const products = [
     camera: '64MP + 5MP + 2MP',
     price: 299999,
     link: 'https://kaspi.kz/shop/p/google-pixel-7-8-gb-128-gb-chernyi-106971937/?c=750000000',
-    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/hc7/h97/79913098870814.jpg?format=gallery-medium'
+    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/hc7/h97/79913098870814.jpg?format=gallery-medium',
+    rating: 1
   },
   {
     id: 10,
@@ -140,7 +150,8 @@ export const products = [
     camera: '48MP + 13MP + 48MP',
     price: 379899,
     link: 'https://kaspi.kz/shop/p/google-pixel-7-8-gb-128-gb-chernyi-106971937/?c=750000000',
-    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h21/he2/80819885342750.jpg?format=gallery-medium'
+    imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h21/he2/80819885342750.jpg?format=gallery-medium',
+    rating: 1
   }
 ];
 
