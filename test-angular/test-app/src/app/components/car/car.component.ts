@@ -8,16 +8,6 @@ interface Colors{
   wheels:string
 }
 
-@NgModule({
-  declarations: [
-    CarComponent,
-    // Другие компоненты, директивы или пайпы вашего модуля
-  ],
-  imports: [
-    CommonModule, // Включите CommonModule здесь
-    // Другие модули, от которых зависит ваш компонент
-  ],
-})
 
 @Component({
   selector: 'app-car',
@@ -26,7 +16,7 @@ interface Colors{
   templateUrl: './car.component.html',
   styleUrl: './car.component.css'
 })
-export class CarComponent implements OnInit {
+export class CarComponent implements OnInit{
 
   name:string;
   speed: number;
