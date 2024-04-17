@@ -1,0 +1,7 @@
+
+<ul>
+  <li *ngFor="let c of companies">
+    <p>{{c.name}} -- {{c.description}}</p>
+    <button routerLink="['/vacancies', c.id]">Go to vacancies</button>
+  </li>
+</ul>
